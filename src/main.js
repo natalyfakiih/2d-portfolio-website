@@ -20,10 +20,6 @@ k.loadSprite("spritesheet", "./player.png", {
 // load home sprite
 k.loadSprite("home", "./home.png");
 
-k.loadSound("footstep", "/sounds/footsteps.mp3");
-k.loadSound("typing", "/sounds/typing.mp3");
-k.loadSound("bgm", "/sounds/background.mp3");
-
 k.setBackground(k.Color.fromHex("#eadde9"));
 
 k.scene("main", async () => {
