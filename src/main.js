@@ -1,6 +1,6 @@
-import { dialogueData } from "./constants";
-import { displayDialogue, setCamScale } from "./functions";
-import { k } from "./kaboom";
+import { dialogueData } from "./constants.js";
+import { displayDialogue, setCamScale } from "./functions.js";
+import { k } from "./kaboom.js";
 const zoomLevel = 0.5;
 
 // load my character sprite
